@@ -1,4 +1,4 @@
-# Application Working name: Giggly
+# Giggly (Working Title)
 ### MERN application for bands tracking gigs
 
 Development deployment is here:
@@ -8,7 +8,9 @@ https://gigglydevelopmentdeployment.herokuapp.com/
 Login as a user representing a band and add your gigs/shows with venue, contact email, dat eof show, genre, and show status. Simple functionality to begin as a proof of concept and my initial MERN application. In general AppContext is used to track global state in the react application. Styled components are used as component wrappers for most styling. This application was originally modeled from a MERN stack application and a tutorial by John Smigla.
 
 **Future plans**
-Basic framework and api is setup. Main tasks in the future include adding a [Venue] schema, an [Act] schema as well as user roles that allow those uses to create or join venue or acts. The [Gig] schema will be updated to track the many variables involved in setting up a live event. Each venue and act will any number of gig documents. Relationships between collections will be dicated by business logic intended to ease the booking process between live acts and live venues as well as help venues find available acts for dates and vice versa. 
+Main tasks in the future include adding a [Venue] schema, an [Act] schema as well as add [User] roles (admin, band leader, band member, booking agent, venue owner) that allow those users to create or join venue or acts. The [Gig] schema will be updated to track the many variables involved in setting up a live event. Each [Venue] and [Act] will point to any number of [Gig] documents. Relationships between collections will be dictated by business logic intended to ease the booking process between live acts and live venues as well as help venues find available acts for dates and vice versa.
+
+_Example of business logic:_ An act/user will be able to search by available gigs in their area that align to their genre and apply for a spot in the gig pending approveal by the venue.
 
 **Key Dependencies (See package.json for complete list)**
 1. Create react app
