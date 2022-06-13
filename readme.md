@@ -4,13 +4,8 @@
 Development deployment is here:
 https://gigglydevelopmentdeployment.herokuapp.com/
 
-**Description**
+**Description:**
 Login as a user representing a band and add your gigs/shows with venue, contact email, dat eof show, genre, and show status. Simple functionality to begin as a proof of concept and my initial MERN application. In general AppContext is used to track global state in the react application. Styled components are used as component wrappers for most styling. This application was originally modeled from a MERN stack application and a tutorial by John Smigla.
-
-**Future plans**
-Main tasks in the future include adding a [Venue] schema, an [Act] schema as well as add [User] roles (admin, band leader, band member, booking agent, venue owner) that allow those users to create or join venue or acts. The [Gig] schema will be updated to track the many variables involved in setting up a live event. Each [Venue] and [Act] will point to any number of [Gig] documents. Relationships between collections will be dictated by business logic intended to ease the booking process between live acts and live venues as well as help venues find available acts for dates and vice versa.
-
-_Example of business logic:_ An act/user will be able to search by available gigs in their area that align to their genre and apply for a spot in the gig pending approveal by the venue.
 
 **Key Dependencies (See package.json for complete list)**
 1. Create react app
@@ -33,3 +28,8 @@ _Example of business logic:_ An act/user will be able to search by available gig
 8. Search and filter field labels should be light text.
 9. Pagination sould reduce to current page and pre/next butons on smaller screen.
 10. ~~Fix issue with final month not showing up in metrics charts given certian conditions~~<----still an issue in development deployment but fixed in this repo 
+
+**Future Plans:**
+Main tasks in the future include adding a [Venue] schema, an [Act] schema as well as add [User] roles (admin, band leader, band member, booking agent, venue owner) that allow those users to create or join venue or acts. The [Gig] schema will be updated to track the many variables involved in setting up a live event. Each [Venue] and [Act] will point to any number of [Gig] documents. Relationships between collections will be dictated by business logic intended to ease the booking process between live acts and live venues as well as help venues find available acts for dates and vice versa.
+
+_Example of business logic:_ An act/user will be able to search by available gigs in their area that align to their genre and apply for a spot in the gig pending approveal by the venue.
