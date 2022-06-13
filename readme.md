@@ -17,7 +17,7 @@ _Example of business logic:_ An act/user will be able to search by available gig
 2. Axios
 3. Express
 4. MongoDB
-5. Rechart (Note, React 18.x is not directly compatable with rechart. See package.json for scrip overrides)
+5. Rechart _(Note, React 18.x is not directly compatable with rechart. See package.json for script overrides, use --force for local deplyment with create react app)_
 6. Styled Components
 7. bcrypt
 8. jsonwebtoken
