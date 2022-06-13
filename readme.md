@@ -1,5 +1,5 @@
 # Giggly (Working Title)
-### MERN application for bands tracking gigs
+### MERN application for bands/venues for live music event (gig) booking and tracking
 
 Development deployment is here:
 https://gigglydevelopmentdeployment.herokuapp.com/
